@@ -1,0 +1,39 @@
+@mixin font ($font-family, $font-size, $color) {
+	font-family: $font-family;
+	font-size: $font-size;
+	color: $color;
+}
+
+@mixin button ($font-size, $color, $background-color, $padding...) {
+  cursor: pointer;
+	display: inline-block;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  outline: none;
+	font-family: OpenSans-Bold;
+  font-size: $font-size;
+  color: $color;
+  background-color: $background-color;
+  padding: $padding;
+  letter-spacing: 1px;
+  border-radius: 50px;
+	transition: all .1s linear;
+}
+
+@mixin button-2{
+	margin-right: 10px;
+	padding: 15px 40px;
+	border: 1px solid $c2;
+	background-color: #fff;
+	color: $c2;
+	text-transform: none;
+	transition: $tr;
+	font-family: Montserrat-Bold;
+	font-size: 14px;
+	&:hover{
+		background-color: $c21;
+		color: #fff;
+	}
+}
