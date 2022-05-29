@@ -943,8 +943,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .layout-3 .layout-3-inner .row-2-layout-3 .col-2-layout-3 .stars {
   text-align: center;
 }
-.layout-3 .layout-3-inner .row-2-layout-3 .col-2-layout-3 .fa-star {
+.layout-3 .layout-3-inner .row-2-layout-3 .col-2-layout-3 .fa-star-o {
   margin-top: 137px;
+  color: #F3CD03;
 }
 .layout-3 .layout-3-inner .row-2-layout-3 .col-2-layout-3 .checked {
   color: #F3CD03;
