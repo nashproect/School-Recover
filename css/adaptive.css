@@ -115,7 +115,11 @@
     height: 930px;
   }
   .header .row-header-1 .navbar {
-    height: 60px;
+    height: 100%;
+  }
+
+  .navbar-toggler {
+    border: none;
   }
 
   .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
@@ -203,7 +207,7 @@
     font-size: 27px;
   }
   .layout-3 .layout-3-inner .row-2-layout-3 .col-2-layout-3 .stars {
-    margin-top: 65px;
+    margin-top: -65px;
   }
 
   .layout-4 {
@@ -301,7 +305,7 @@
             flex-direction: column;
   }
   .row-header-2 .link {
-    margin: 100px 0 0 -400px;
+    margin: 100px 0 0 0;
   }
   .row-header-2 .title {
     width: 510px;
@@ -362,6 +366,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .layout-1 .row-layout-1 .col-layout-1 .link {
+    text-align: center;
+  }
   .layout-1 .row-layout-1 .col-layout-1 img {
     width: 460px;
   }
@@ -379,6 +386,9 @@
   .layout-2 .layout-2-inner .row-1-layout-2 {
     width: 510px;
     margin: 0 auto;
+  }
+  .layout-2 .layout-2-inner .row-1-layout-2 .suptitle {
+    text-align: center;
   }
   .layout-2 .layout-2-inner .row-1-layout-2 .title {
     text-align: center;
@@ -409,6 +419,9 @@
     width: 510px;
     margin: 0 auto;
   }
+  .layout-3 .layout-3-inner .row-1-layout-3 .suptitle {
+    text-align: center;
+  }
   .layout-3 .layout-3-inner .row-1-layout-3 .title {
     text-align: center;
     margin-top: 25px;
@@ -433,7 +446,7 @@
     border: 1px solid #96BB7C;
   }
   .layout-3 .layout-3-inner .row-2-layout-3 .col-2-layout-3 .stars {
-    margin-top: 25px;
+    margin-top: -100px;
   }
   .layout-3 .layout-3-inner .row-2-layout-3 .col-2-layout-3 .user-cover {
     margin: 25px 0;
@@ -447,7 +460,8 @@
     margin: 0 auto;
   }
   .layout-4 .layout-4-inner .row-1-layout-4 .suptitle {
-    padding-top: 40px;
+    padding-top: 60px;
+    text-align: center;
   }
   .layout-4 .layout-4-inner .row-1-layout-4 .title {
     text-align: center;
@@ -489,7 +503,7 @@
     height: 330px;
   }
   .layout-5 .suptitle {
-    margin-top: 60px;
+    margin-top: 80px;
   }
   .layout-5 .input {
     width: 280px;
