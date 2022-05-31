@@ -544,11 +544,12 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 }
 .row-header-3 .col-header-3 .logo img {
+  width: inherit;
   margin: 35px 0 0 40px;
-  padding: 20px 20px;
-  background-color: #E74040;
+  /*padding: 20px 20px;
+  background-color: $c3;
   border-radius: 50%;
-  color: #fff;
+  color: #fff;*/
 }
 .row-header-3 .col-header-3 .title {
   margin: 20px 0 0 40px;
